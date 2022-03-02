@@ -16,3 +16,12 @@ const celular = criarCelular('sansung', 6000)
 
 console.log(celular)
 
+
+// constructor function
+function Celular(){
+    this.marcaCelular = marcaCelular,
+    this.tamanhoTela = tamanhoTela,
+    this.ligar = function(){
+        console.log("Ligando");
+    }
+}
